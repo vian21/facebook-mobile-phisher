@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+  background-color: #ffffff;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, '.SFNSText-Regular', sans-serif;
+  width: 100%;
+}
+
+.container {
+  background-color: #edf2fa;
+  width: 100%;
+}
+
+#regtable {
+  display: none;
+}
+
+.header {
+
+  width: 100%;
+}
+
+.header h1 {
+  color: rgb(24, 119, 242);
+  font-size: 24px;
+  padding: 7px;
+  margin: 0 !important;
+}
+
+table {
+  width: 98%;
+}
+
+input {
+  background-color: white;
+  border: 0;
+  width: 100%;
+  padding: 12px;
+  margin-top: 5px !important;
+  font-size: 14px;
+  font-family: sans-serif;
+}
+
+button {
+  width: 98%;
+  border: 0;
+  color: white;
+  padding: 12px;
+  border-radius: 5px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+p {
+  color: #4b4f56;
+}
+
+#submit {
+  color: white;
+  background-color: rgb(24, 119, 242);
+}
+
+.create {
+  width: 60%;
+  background-color: #42b72a;
+  border: 0;
+  border-color: #42b72a;
+  color: white;
+}
+
+.help a {
+  color: #7596c8;
+  font-size: 12px;
+}
+
+.lang {
+  width: 90%;
+  display: flex;
+  background-color: #ffffff;
+}
+
+.current {
+  width: 50%;
+  text-align: center;
+}
+
+.french {
+  width: 50%;
+  text-align: center;
+}
+
+.current p {
+  font-weight: bold;
+  font-size: 12px;
+  color: #90949c;
+  text-align: center;
+}
+
+.current a {
+  color: #576b95;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.french a {
+  color: #576b95;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.rights {
+  font-size: 12px;
+  color: gray;
+}
