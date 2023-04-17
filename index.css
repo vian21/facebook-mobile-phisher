@@ -1,7 +1,8 @@
 body {
   margin: 0;
   background-color: #ffffff;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, '.SFNSText-Regular', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, ".SFNSText-Regular",
+    sans-serif;
   width: 100%;
 }
 
@@ -15,15 +16,15 @@ body {
 }
 
 .header {
-
   width: 100%;
 }
 
 .header h1 {
   color: rgb(24, 119, 242);
   font-size: 24px;
-  padding: 7px;
+  padding: 10px;
   margin: 0 !important;
+  font-weight: bolder;
 }
 
 table {
@@ -33,11 +34,11 @@ table {
 input {
   background-color: white;
   border: 0;
-  width: 100%;
-  padding: 12px;
-  margin-top: 5px !important;
-  font-size: 14px;
+  font-size: 14px !important;
   font-family: sans-serif;
+  margin-top: 5px !important;
+  padding: 12px;
+  width: 100%;
 }
 
 button {
@@ -56,8 +57,9 @@ p {
 }
 
 #submit {
-  color: white;
   background-color: rgb(24, 119, 242);
+  color: white;
+  font-weight: 600;
 }
 
 .create {
@@ -66,14 +68,17 @@ p {
   border: 0;
   border-color: #42b72a;
   color: white;
+  font-weight: 600;
 }
 
 .help a {
   color: #7596c8;
   font-size: 12px;
+  margin-bottom: 40px;
 }
 
 .lang {
+  margin-top: 20px;
   width: 90%;
   display: flex;
   background-color: #ffffff;

